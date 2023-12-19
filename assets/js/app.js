@@ -56,7 +56,7 @@ sr.reveal(`.home__button`, {
 
 sr.reveal(`.menu-box, .products-box, .blogs-box`, {
     origin: 'top',
-    interval: 200,
+    interval: 100,
 })
 
 sr.reveal(`.review-box`, {
@@ -67,5 +67,5 @@ sr.reveal(`.review-box`, {
 
 sr.reveal(`.contact__form`, {
     opacity: 0.1,
-    delay: 400
+    delay: 200
 })
