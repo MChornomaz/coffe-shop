@@ -672,21 +672,21 @@ section {
         padding: 0 7%;
     }
 
+    .home{
+        height: calc(100vh - 83px);
+        margin-top: 12vh;
+    }
+
     .home__content{
         max-width: 80%;
     }
     
     .home__title{
-        font-size: 5rem;
-        text-transform: uppercase;
-        color: var(--white);
+        font-size: 10vh;
+    }
+
+    .home__description{
+        font-size: 5vh;
     }
     
-    .home__description{
-        font-size: 2rem;
-        font-weight: lighter;
-        line-height: 1.8;
-        padding: 1rem 0;
-        color: #eee;
-    }
 }
